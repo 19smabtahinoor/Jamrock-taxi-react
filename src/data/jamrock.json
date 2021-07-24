@@ -1,0 +1,408 @@
+{
+  "currencyList": [
+    {
+      "id": 1,
+      "currency": "USD",
+      "currencyName": "U.S.Dollar"
+    },
+    {
+      "id": 2,
+      "currency": "EUR",
+      "currencyName": "Euro"
+    },
+    {
+      "id": 3,
+      "currency": "GBP",
+      "currencyName": "Pound Strering"
+    },
+    {
+      "id": 4,
+      "currency": "RUB",
+      "currencyName": "Russian Ruble"
+    },
+    {
+      "id": 5,
+      "currency": "AZN",
+      "currencyName": "Azerbaijani Manut"
+    },
+    {
+      "id": 6,
+      "currency": "PKR",
+      "currencyName": "Pakistani Rupee"
+    },
+    {
+      "id": 7,
+      "currency": "BYN",
+      "currencyName": "Belarusian Ruble"
+    },
+    {
+      "id": 8,
+      "currency": "PLN",
+      "currencyName": "Polish Zioty"
+    },
+    {
+      "id": 9,
+      "currency": "GEL",
+      "currencyName": "Gerorgian Lari"
+    },
+    {
+      "id": 10,
+      "currency": "THB",
+      "currencyName": "Thai Baht"
+    }
+  ],
+  "countryList": [
+    {
+      "id": 1,
+      "countryName": "English",
+      "countryFlag": "../../assets/Flag/united-kingdom.png"
+    },
+    {
+      "id": 2,
+      "countryName": "Espanol",
+      "countryFlag": "../../assets/Flag/spain.png"
+    },
+    {
+      "id": 3,
+      "countryName": "Italiano",
+      "countryFlag": "../../assets/Flag/italy.png"
+    },
+    {
+      "id": 4,
+      "countryName": "Bangladesh",
+      "countryFlag": "../../assets/Flag/bangladesh.png"
+    },
+    {
+      "id": 5,
+      "countryName": "United States",
+      "countryFlag": "../../assets/Flag/canada.png"
+    },
+    {
+      "id": 6,
+      "countryName": "Nederlands",
+      "countryFlag": "../../assets/Flag/netherlands.png"
+    },
+    {
+      "id": 7,
+      "countryName": "Deutsch",
+      "countryFlag": "../../assets/Flag/germany.png"
+    },
+    {
+      "id": 8,
+      "countryName": "Pakistan",
+      "countryFlag": "../../assets/Flag/pakistan.png"
+    },
+    {
+      "id": 9,
+      "countryName": "Francais",
+      "countryFlag": "../../assets/Flag/france.png"
+    },
+    {
+      "id": 10,
+      "countryName": "Canada",
+      "countryFlag": "../../assets/Flag/canada.png"
+    }
+  ],
+  "serviceWorksInfo": [
+    {
+      "id": 1,
+      "title": "You choose the route and a car",
+      "description": "You can order a car of any capacity — from a Micro for two to a 19-seater bus."
+    },
+    {
+      "id": 2,
+      "title": "Complete the booking form and choose a payment method",
+      "description": "Specify the pickup date and time and choose a payment method. After booking, you will receive an email with the voucher."
+    },
+    {
+      "id": 3,
+      "title": "The driver meets you with a nameplate at the airport",
+      "description": "At the right time, the driver will be waiting for you on-site. They will walk you to the car and take you to the hotel."
+    }
+  ],
+  "allreviews": [
+    {
+      "id": 1,
+      "reviews": "I use KiwiTaxi every time I am in Istanbul and they are great every time!",
+      "author": "Shahed T"
+    },
+    {
+      "id": 2,
+      "reviews": "Second trip with Kiwitaxi and it was perfect like the first time. Love this company.",
+      "author": "Shahed T"
+    },
+    {
+      "id": 3,
+      "reviews": "This was the easiest trip I have had in many years. The driver in Georgia was just a lovely person, on-time and carried my bag right upto the border control and so helpful. Gave me the license plate number and showed me a picture of the car on the Armenian side. The driver on the Armenian side was waiting at the entrance to the country, had a sign with my name on it and off we went. We stopped for a snack and bathroom break halfway to Yerevan and he was also a very nice man.Total trip time was almost 6-hours, from Tbilisi to Yerevan and I will not hesitate to use this company again, hopefully they will be in the other countries I visit.",
+      "author": "Shahed T"
+    },
+    {
+      "id": 4,
+      "reviews": "I use KiwiTaxi every time I am in Istanbul and they are great every time!This was the easiest trip I have had in many years. The driver in Georgia was just a lovely person, on-time and carried my bag right upto the border control and so helpful. Gave me the license plate number and showed me a picture of the car on the Armenian side. The driver on the Armenian side was waiting at the entrance to the country,",
+      "author": "Shahed T"
+    },
+    {
+      "id": 5,
+      "reviews": "I use KiwiTaxi every time I am in Istanbul and they are great every time!",
+      "author": "Shahed T"
+    },
+    {
+      "id": 6,
+      "reviews": "This was the easiest trip I have had in many years. The driver in Georgia was just a lovely person, on-time and carried my bag right upto the border control and so helpful. Gave me the license plate number and showed me a picture of the car on the Armenian side. The driver on the Armenian side was waiting at the entrance to the country,",
+      "author": "Shahed T"
+    },
+    {
+      "id": 7,
+      "reviews": "I use KiwiTaxi every time I am in Istanbul and they are great every time!",
+      "author": "Shahed T"
+    },
+    {
+      "id": 8,
+      "reviews": "I use KiwiTaxi every time I am in Istanbul and they are great every time!This was the easiest trip I have had in many years. The driver in Georgia was just a lovely person, on-time and carried my bag right upto the border control and so helpful. Gave me the license plate number and showed me a picture of the car on the Armenian side. The driver on the Armenian side was waiting at the entrance to the country,This was the easiest trip I have had in many years. The driver in Georgia was just a lovely person, on-time and carried my bag right upto the border control and so helpful. Gave me the license plate number and showed me a picture of the car on the Armenian side. The driver on the Armenian side was waiting at the entrance to the country,",
+      "author": "Shahed T"
+    },
+    {
+      "id": 9,
+      "reviews": "I use KiwiTaxi every time I am in Istanbul and they are great every time!",
+      "author": "Shahed T"
+    },
+    {
+      "id": 10,
+      "reviews": "I use KiwiTaxi every time I am in Istanbul and they are great every time!I use KiwiTaxi every time I am in Istanbul and they are great every time!I use KiwiTaxi every time I am in Istanbul and they are great every time!",
+      "author": "Shahed T"
+    }
+  ],
+  "allcars": [
+    {
+      "id": 1,
+      "image": "../../assets/car_1.png",
+      "title": "Budget",
+      "desc": "For a couple or a family with a child."
+    },
+    {
+      "id": 2,
+      "image": "../../assets/car_2.png",
+      "title": "Business class",
+      "desc": "For comfortable business trips."
+    },
+    {
+      "id": 3,
+      "image": "../../assets/car_3.png",
+      "title": "Spacious",
+      "desc": "For groups of up to 19 people or large baggage."
+    }
+  ],
+  "plansData": [
+    {
+      "id": 1,
+      "title": "Wait time if your flight is delayed",
+      "desc": "1 h of waiting at the airport included."
+    },
+    {
+      "id": 2,
+      "title": "Free cancellation and changes",
+      "desc": "One day before the trip."
+    },
+    {
+      "id": 3,
+      "title": "24-hour support in English",
+      "desc": "By phone and on the website."
+    }
+  ],
+  "faqData": [
+    {
+      "id": 1,
+      "question": "How do I find and book a transfer?",
+      "answer": "Specify the place of departure in the From field, and your destination - in the To field. You can choose the desired city, airport, train station, port, and hotel from the drop-down menu or enter the exact address of the place."
+    },
+    {
+      "id": 2,
+      "question": "How far in advance should I book a transfer?",
+      "answer": "Specify the place of departure in the From field, and your destination - in the To field. You can choose the desired city, airport, train station, port, and hotel from the drop-down menu or enter the exact address of the place."
+    },
+    {
+      "id": 3,
+      "question": "How do I know if my booking has gone through?",
+      "answer": "Specify the place of departure in the From field, and your destination - in the To field. You can choose the desired city, airport, train station, port, and hotel from the drop-down menu or enter the exact address of the place."
+    },
+    {
+      "id": 4,
+      "question": "What should I do if my flight is delayed?",
+      "answer": "Specify the place of departure in the From field, and your destination - in the To field. You can choose the desired city, airport, train station, port, and hotel from the drop-down menu or enter the exact address of the place."
+    },
+    {
+      "id": 5,
+      "question": "How can I find my driver?",
+      "answer": "Specify the place of departure in the From field, and your destination - in the To field. You can choose the desired city, airport, train station, port, and hotel from the drop-down menu or enter the exact address of the place."
+    }
+  ],
+  "advantages": [
+    {
+      "id": 1,
+      "title": "Transfer is booked in advance",
+      "desc": "The carrier knows beforehand when you arrive at the airport: the taxi will already be waiting for you at the taxi rank, and the taxi driver will meet you as close to the arrivals area as the airport rules allow. The same applies to transfers from train stations and hotels: the driver will be waiting for you at the specified place, holding a sign with a client’s name on it — this is a standard of our service. It is possible to order a local taxi to the airport cheaply (taxi rates are normally lower than transfer prices), but you will have to wait for the taxi cab and then look for it, which may take 10–15 minutes more than in case of a pre-booking."
+    },
+    {
+      "id": 2,
+      "title": "No need to communicate with a driver",
+      "desc": "Everything about the trip is known in advance, so if you do not speak the language or are not in a mood, you do not have to talk. A driver holding a sign with a passenger’s name on it will meet you in the right place and the rest is recorded in a voucher. You will probably have to argue with a local taxi driver over the price of a taxi from the airport — in a foreign language, you may fail to bargain successfully."
+    },
+    {
+      "id": 3,
+      "title": "If need be, the car will be equipped with a child seat",
+      "desc": "When booking a vehicle with us, it is sufficient to specify how many child seats you need and for what age. The price for a seat will be automatically added to the total amount on the payment page. The driver will arrive in a car prepared for children transportation. If you try to order a taxi to the airport on the spot and ask for a car with 1-2 child seats, you may have to wait no less than 15 minutes, while the operator will be searching for the options to find nothing."
+    },
+    {
+      "id": 4,
+      "title": "Travel with bulky baggage",
+      "desc": "You only need to book a transfer, having specified in a booking form that you need a big trunk for skis. Your order will be confirmed only provided the carrier finds a car, in which one can transport skis, otherwise, you will know, that in this area such a vehicle cannot be provided."
+    },
+    {
+      "id": 5,
+      "title": "The car of a chosen car class",
+      "desc": "Or of a higher class. The capacity is known in advance: how many people can travel and how many standard-size suitcases can fit in. When booking a taxi cab from the airport via a local app, this cannot always be predicted."
+    },
+    {
+      "id": 6,
+      "title": "You can have a small excursion",
+      "desc": "Or of a higher class. The capacity is known in advance: how many people can travel and how many standard-size suitcases can fit in. When booking a taxi cab from the airport via a local app, this cannot always be predicted."
+    },
+    {
+      "id": 7,
+      "title": "The car of a chosen car class",
+      "desc": "The payment is possible in a favorable currency on the website. The rates for our service are known in advance. After making a booking, the price will not change, no matter how much time is left before the trip. For a trip by public transport or local taxi from the airport, you will have to exchange currency upon arrival, and the price is not known in advance."
+    }
+  ],
+  "allcountries": [
+    {
+      "id": 1,
+      "name": "Russia"
+    },
+    {
+      "id": 2,
+      "name": "Russia"
+    },
+    {
+      "id": 3,
+      "name": "Russia"
+    },
+    {
+      "id": 4,
+      "name": "Russia"
+    },
+    {
+      "id": 5,
+      "name": "Russia"
+    },
+    {
+      "id": 6,
+      "name": "Russia"
+    },
+    {
+      "id": 7,
+      "name": "Russia"
+    },
+    {
+      "id": 8,
+      "name": "Russia"
+    },
+    {
+      "id": 9,
+      "name": "Russia"
+    },
+    {
+      "id": 10,
+      "name": "Russia"
+    },
+    {
+      "id": 11,
+      "name": "Russia"
+    },
+    {
+      "id": 12,
+      "name": "Russia"
+    },
+    {
+      "id": 13,
+      "name": "Russia"
+    },
+    {
+      "id": 14,
+      "name": "Russia"
+    },
+    {
+      "id": 15,
+      "name": "Russia"
+    },
+    {
+      "id": 16,
+      "name": "Russia"
+    }
+  ],
+  "allairports": [
+    {
+      "id": 1,
+      "name": "Pula Airport"
+    },
+    {
+      "id": 2,
+      "name": "Pula Airport"
+    },
+    {
+      "id": 3,
+      "name": "El Prat Airport Barcelona"
+    },
+    {
+      "id": 4,
+      "name": "Pula Airport"
+    },
+    {
+      "id": 5,
+      "name": "El Prat Airport Barcelona"
+    },
+    {
+      "id": 6,
+      "name": "Pula Airport"
+    },
+    {
+      "id": 7,
+      "name": "Pula Airport"
+    },
+    {
+      "id": 8,
+      "name": "Podgorica Airport"
+    },
+    {
+      "id": 9,
+      "name": "Pula Airport"
+    },
+    {
+      "id": 10,
+      "name": "Podgorica Airport"
+    },
+    {
+      "id": 11,
+      "name": "Pula Airport"
+    },
+    {
+      "id": 12,
+      "name": "Pula Airport"
+    },
+    {
+      "id": 13,
+      "name": "Podgorica Airport"
+    },
+    {
+      "id": 14,
+      "name": "Podgorica Airport"
+    },
+    {
+      "id": 15,
+      "name": "Pula Airport"
+    },
+    {
+      "id": 16,
+      "name": "Podgorica Airport"
+    }
+  ]
+}
