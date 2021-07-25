@@ -1,13 +1,14 @@
 import React from 'react'
-import {BrowserRouter,Route,Switch} from 'react-router-dom'
-import { Hompage, Navbar} from './components/index'
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import { Hompage, Navbar } from './components/index'
+
 
 const App = () => {
   return (
     <BrowserRouter>
-      <Navbar/>
+      <Navbar />
       <Switch>
-        <Route exact path="/" component={Hompage}/>
+        <Route exact path="/" component={Hompage} />
       </Switch>
     </BrowserRouter>
   )

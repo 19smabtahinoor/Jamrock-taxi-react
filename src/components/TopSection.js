@@ -78,7 +78,7 @@ const TopSection = () => {
                         </Fade>
 
                         <Fade right>
-                        <div className="flex items-center space-x-4 justify-center md:justify-end lg:justify-end xl:justify-end">
+                        <div className="flex items-center space-x-4 justify-center md:justify-end lg:justify-end xl:justify-end z-10">
                             <div className="flex items-center space-x-3">
                                 <span className="text-gray-300 text-sm">TripAdvisor</span>
                                 <div className="flex items-center space-x-1">

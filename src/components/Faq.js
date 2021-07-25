@@ -55,7 +55,7 @@ const Faq = () => {
                                     <div>
                                         <p className="text-gray-600 font-bold">For any questions</p>
                                         <ul style={{listStyle:'none'}}>
-                                            <li className="flex items-center space-x-2 py-2"><FaRegEnvelope className="text-yellow-600 text-xl"/><span className="text-blue-600">support@jamrocktaxi.com</span></li>
+                                            <li className="flex items-center space-x-2 py-2"><FaRegEnvelope className="text-yellow-600 text-xl" /><span className="text-blue-600">hello@jamrocktaxi.com</span></li>
                                             <li className="flex items-center space-x-2"><FaRocketchat className="text-yellow-600 text-xl" /><span className="text-blue-600">Ask our consultant</span></li>
                                         </ul>
                                     </div>

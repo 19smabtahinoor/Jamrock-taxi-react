@@ -19,17 +19,16 @@ const Footer = () => {
                     <div className="row row-cols-2 row-cols-md-2 row-cols-lg-4 row-cols-xl-4 g-4  pb-8 pt-6">
 
                         <div>
-                            <p className="text-sm text-white pb-2">Kiwitaxi system</p>
-                            <p className="text-sm text-white pb-2">Transfer service</p>
+                            <p className="text-sm text-white pb-2">Jamrocktaxi system</p>
                             <p className="text-sm text-white pb-2">FAQ</p>
                             <p className="text-sm text-white pb-2">Contact information</p>
                         </div>
 
                         <div>
-                            <p className="text-sm text-white pb-2 ">For transfer companies</p>
-                            <p className="text-sm text-white pb-2">For individual drivers</p>
-                            <p className="text-sm text-white pb-2">For travel agencies</p>
-                            <p className="text-sm text-white pb-2">For webmasters</p>
+                            <p className="text-sm text-white pb-2 ">✓ Free Waiting Time</p>
+                            <p className="text-sm text-white pb-2">✓ Free Cancellation</p>
+                            <p className="text-sm text-white pb-2">✓ Free Meeting & Greet</p>
+                            <p className="text-sm text-white pb-2">✓ Tourism Certified Drivers & Vehicles</p>
                         </div>
 
                         <div>
@@ -43,7 +42,7 @@ const Footer = () => {
                             </p>
                             <p className="pb-2 flex items-center space-x-3 ">
                                 <FaEnvelope className="text-lg text-white" />
-                                <span className="text-sm text-white">support@kiwitaxi.com</span>
+                                <span className="text-sm text-white">hello@jamrocktaxi.com</span>
                             </p>
                         </div>
 
