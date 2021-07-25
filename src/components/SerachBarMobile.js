@@ -11,7 +11,6 @@ import Styled from 'styled-components'
 const SerachBarMobile = ({ isScriptLoaded, isScriptLoadSucceed }) => {
     const [userCount, setUserCount] = useState(0)
     const [dropDown, setdropDown] = useState(true)
-    const [searchBar, setSearchBar] = useState(false)
     const [address, setAddress] = useState("");
     const handleChange = (value) => {
         setAddress(value);
