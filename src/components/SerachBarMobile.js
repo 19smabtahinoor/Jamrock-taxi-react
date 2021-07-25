@@ -41,7 +41,7 @@ const SerachBarMobile = () => {
     return (
         <Wrapper>
             <div className="relative z-50">
-                <div className="input-group mb-3 rounded-5">
+                <div className="mb-3 rounded-5">
                     <input type="text" className="form-control" placeholder="From(airport,city or train )" aria-label="Recipient's username" aria-describedby="button-addon2" onChange={(e) => searchCountries(e.target.value)} />
                     <input type="text" className="form-control" placeholder="To(airport,city or train )" aria-label="Recipient's username" aria-describedby="button-addon2" onChange={(e) => searchCountries(e.target.value)} />
                     <button className="btn dropdown-toggle bg-white text-muted" type="button" onClick={handleClick}>
