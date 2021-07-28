@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
-import { Hompage, Navbar } from './components/index'
+import { Hompage, Navbar, SearchPage } from './components/index'
 
 
 const App = () => {
@@ -9,6 +9,7 @@ const App = () => {
       <Navbar />
       <Switch>
         <Route exact path="/" component={Hompage} />
+        <Route exact path="/car-cart" component={SearchPage} />
       </Switch>
     </BrowserRouter>
   )

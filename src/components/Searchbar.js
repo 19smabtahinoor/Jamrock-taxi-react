@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState} from 'react'
 import SerachBarMobile from './SerachBarMobile'
 import { HiOutlineSearch } from "react-icons/hi"
 import { HiOutlineMinusCircle } from "react-icons/hi"
@@ -7,12 +7,15 @@ import Zoom from 'react-reveal/Zoom';
 import PlacesAutocomplete from "react-places-autocomplete";
 import scriptLoader from "react-async-script-loader";
 import SearchBarInput2 from './SearchBarInput2'
+import {NavLink} from 'react-router-dom'
+
 
 const Searchbar = ({ isScriptLoaded, isScriptLoadSucceed }) => {
     const [userCount, setUserCount] = useState(0)
     const [dropDown, setdropDown] = useState(true)
     const [searchBar, setSearchBar] = useState(false)
     const [address, setAddress] = useState("");
+
     const handleChange = (value) => {
         setAddress(value);
     };
@@ -46,28 +49,32 @@ const Searchbar = ({ isScriptLoaded, isScriptLoadSucceed }) => {
                         >
                             {({
                                 getInputProps,
-                                
                                 suggestions,
                                 getSuggestionItemProps,
                                 loading
                             }) => (
                                <>
                                     <div className="input-group mb-3 rounded-5">
+                                        
                                         <input type="text" className="form-control"
                                             {...getInputProps({
                                                 placeholder: "From(airport,city or train )"
-                                            })} aria-label="Recipient's username" aria-describedby="button-addon2" />
+                                            })} aria-label="Recipient's username" aria-describedby="button-addon2"/>
+                                        
                                             <SearchBarInput2/>
                                         <button className="btn dropdown-toggle bg-white text-muted" type="button" onClick={handleClick}>
                                             {userCount} passengers
                                         </button>
 
-                                        <button className="btn btn-success" type="button" id="button-addon2">
-                                            <p className="text-lg flex items-center justify-center space-x-3 pt-2">
-                                                <HiOutlineSearch className="text-lg" />
-                                                <span className="font-semibold">Show Prices</span>
-                                            </p>
-                                        </button>
+                                        <NavLink to="/car-cart">
+                                            <button className="btn btn-success" type="button" id="button-addon2">
+                                                <p className="text-lg flex items-center justify-center space-x-3 pt-2">
+                                                    <HiOutlineSearch className="text-lg" />
+                                                    <span className="font-semibold">Show Prices</span>
+                                                </p>
+                                            </button>
+                                        </NavLink>
+                                      
 
                                     </div>
                                     
@@ -101,10 +108,7 @@ const Searchbar = ({ isScriptLoaded, isScriptLoadSucceed }) => {
                                     </div>
                                 </div>
                             </Zoom>
-                        )}
-                        {
-
-                        }
+                        )}                                    
                     </div>
                 ) : (
                     <>
@@ -125,6 +129,5 @@ export default scriptLoader([
     `https://maps.googleapis.com/maps/api/js?key=AIzaSyAhF_Ae2djxGKmoLzXo1_FaHg30LmPkhWg
 &libraries=places`
 ])(Searchbar);
-
 
 

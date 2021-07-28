@@ -7,6 +7,7 @@ import PlacesAutocomplete from "react-places-autocomplete";
 import scriptLoader from "react-async-script-loader";
 import SearchBarInput2 from './SearchBarInput2'
 import Styled from 'styled-components'
+import { NavLink } from 'react-router-dom'
 
 const SerachBarMobile = ({ isScriptLoaded, isScriptLoadSucceed }) => {
     const [userCount, setUserCount] = useState(0)
@@ -50,12 +51,15 @@ const SerachBarMobile = ({ isScriptLoaded, isScriptLoadSucceed }) => {
                                         {userCount} passengers
                                     </button>
 
-                                    <button className="btn btn-success" type="button" id="button-addon2">
-                                        <p className="text-lg flex items-center justify-center space-x-3 pt-2">
-                                            <HiOutlineSearch className="text-lg" />
-                                            <span className="font-semibold">Show Prices</span>
-                                        </p>
-                                    </button>
+                                    <NavLink to="/car-cart">
+                                        <button className="btn btn-success" type="button" id="button-addon2">
+                                            <p className="text-lg flex items-center justify-center space-x-3 pt-2">
+                                                <HiOutlineSearch className="text-lg" />
+                                                <span className="font-semibold">Show Prices</span>
+                                            </p>
+                                        </button>
+                                    </NavLink>
+                                   
 
                                 </div>
 

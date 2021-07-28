@@ -273,136 +273,97 @@
       "desc": "The payment is possible in a favorable currency on the website. The rates for our service are known in advance. After making a booking, the price will not change, no matter how much time is left before the trip. For a trip by public transport or local taxi from the airport, you will have to exchange currency upon arrival, and the price is not known in advance."
     }
   ],
-  "allcountries": [
+  "allCars":[
     {
-      "id": 1,
-      "name": "Russia"
+      "id":1,
+      "image":"../../assets/car_4.png",
+      "name":"Economy",
+      "carDescription":"Skoda Octavia, Toyota Corolla, Hyundai Elantra, Ford Focus, etc.",
+      "people":4,
+      "bags":3,
+      "price":"$49"
     },
     {
-      "id": 2,
-      "name": "Russia"
+      "id":2,
+      "image":"../../assets/car_5.png",
+      "name":"Comfort",
+      "carDescription":"VW Passat, Toyota Camry, Toyota Fortuner, Chevrolet Suburban, etc.",
+      "people":4,
+      "bags":3,
+      "price":"$58"
     },
     {
-      "id": 3,
-      "name": "Russia"
+      "id":3,
+      "image":"../../assets/car_6.png",
+      "name":"Minivan 4pax",
+      "carDescription":"VW ",
+      "people":4,
+      "bags":4,
+      "price":"$64"
     },
     {
-      "id": 4,
-      "name": "Russia"
+      "id":4,
+      "image":"../../assets/car_7.png",
+      "name":"Minibus 7pax",
+      "carDescription":"Toyota Hiace, Opel Vivaro, Hyundai H-1, etc.",
+      "people":7,
+      "bags":7,
+      "price":"$64"
     },
     {
-      "id": 5,
-      "name": "Russia"
+      "id":5,
+      "image":"../../assets/car_8.png",
+      "name":"Business",
+      "carDescription":"Lexus GS, Mercedes E-class, Audi A6, BMW 5 Series, etc.",
+      "people":4,
+      "bags":3,
+      "price":"$69"
     },
     {
-      "id": 6,
-      "name": "Russia"
+      "id":6,
+      "image":"../../assets/car_9.png",
+      "name":"Premium Minibus 6pax",
+      "carDescription":"Skoda Octavia, Toyota Corolla, Hyundai Elantra, Ford Focus, etc.",
+      "people":6,
+      "bags":4,
+      "price":"$105"
     },
     {
-      "id": 7,
-      "name": "Russia"
+      "id":7,
+      "image":"../../assets/car_10.png",
+      "name":"Premium",
+      "carDescription":"Lexus LS, Mercedes S-class, Audi A8, BMW 7 Series, etc.",
+      "people":4,
+      "bags":3,
+      "price":"$209"
     },
     {
-      "id": 8,
-      "name": "Russia"
+      "id":8,
+      "image":"../../assets/car_1.png",
+      "name":"Minibus 10pax",
+      "carDescription":"Mercedes Sprinter, Toyota Coaster, Ford Transit, etc.",
+      "people":10,
+      "bags":10,
+      "price":"$293"
     },
     {
-      "id": 9,
-      "name": "Russia"
+      "id":9,
+      "image":"../../assets/car_2.png",
+      "name":"Economy",
+      "carDescription":"Skoda Octavia, Toyota Corolla, Hyundai Elantra, Ford Focus, etc.",
+      "people":4,
+      "bags":3,
+      "price":"$49"
     },
     {
-      "id": 10,
-      "name": "Russia"
-    },
-    {
-      "id": 11,
-      "name": "Russia"
-    },
-    {
-      "id": 12,
-      "name": "Russia"
-    },
-    {
-      "id": 13,
-      "name": "Russia"
-    },
-    {
-      "id": 14,
-      "name": "Russia"
-    },
-    {
-      "id": 15,
-      "name": "Russia"
-    },
-    {
-      "id": 16,
-      "name": "Russia"
-    }
-  ],
-  "allairports": [
-    {
-      "id": 1,
-      "name": "Pula Airport"
-    },
-    {
-      "id": 2,
-      "name": "Pula Airport"
-    },
-    {
-      "id": 3,
-      "name": "El Prat Airport Barcelona"
-    },
-    {
-      "id": 4,
-      "name": "Pula Airport"
-    },
-    {
-      "id": 5,
-      "name": "El Prat Airport Barcelona"
-    },
-    {
-      "id": 6,
-      "name": "Pula Airport"
-    },
-    {
-      "id": 7,
-      "name": "Pula Airport"
-    },
-    {
-      "id": 8,
-      "name": "Podgorica Airport"
-    },
-    {
-      "id": 9,
-      "name": "Pula Airport"
-    },
-    {
-      "id": 10,
-      "name": "Podgorica Airport"
-    },
-    {
-      "id": 11,
-      "name": "Pula Airport"
-    },
-    {
-      "id": 12,
-      "name": "Pula Airport"
-    },
-    {
-      "id": 13,
-      "name": "Podgorica Airport"
-    },
-    {
-      "id": 14,
-      "name": "Podgorica Airport"
-    },
-    {
-      "id": 15,
-      "name": "Pula Airport"
-    },
-    {
-      "id": 16,
-      "name": "Podgorica Airport"
+      "id":10,
+      "image":"../../assets/car_3.png",
+      "name":"Minibus 19pax",
+      "carDescription":"Skoda Octavia, Toyota Corolla, Hyundai Elantra, Ford Focus, etc.",
+      "people":4,
+      "bags":3,
+      "price":"$49"
     }
   ]
+  
 }
