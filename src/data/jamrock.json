@@ -281,7 +281,8 @@
       "carDescription":"Skoda Octavia, Toyota Corolla, Hyundai Elantra, Ford Focus, etc.",
       "people":4,
       "bags":3,
-      "price":"$49"
+      "price":"$49",
+      "amount":49
     },
     {
       "id":2,
@@ -290,7 +291,8 @@
       "carDescription":"VW Passat, Toyota Camry, Toyota Fortuner, Chevrolet Suburban, etc.",
       "people":4,
       "bags":3,
-      "price":"$58"
+      "price":"$58",
+      "amount":58
     },
     {
       "id":3,
@@ -299,7 +301,8 @@
       "carDescription":"VW ",
       "people":4,
       "bags":4,
-      "price":"$64"
+      "price":"$64",
+      "amount":64
     },
     {
       "id":4,
@@ -308,7 +311,8 @@
       "carDescription":"Toyota Hiace, Opel Vivaro, Hyundai H-1, etc.",
       "people":7,
       "bags":7,
-      "price":"$64"
+      "price":"$45",
+      "amount":45
     },
     {
       "id":5,
@@ -317,7 +321,8 @@
       "carDescription":"Lexus GS, Mercedes E-class, Audi A6, BMW 5 Series, etc.",
       "people":4,
       "bags":3,
-      "price":"$69"
+      "price":"$69",
+      "amount":69
     },
     {
       "id":6,
@@ -326,7 +331,8 @@
       "carDescription":"Skoda Octavia, Toyota Corolla, Hyundai Elantra, Ford Focus, etc.",
       "people":6,
       "bags":4,
-      "price":"$105"
+      "price":"$105",
+      "amount":105
     },
     {
       "id":7,
@@ -335,7 +341,8 @@
       "carDescription":"Lexus LS, Mercedes S-class, Audi A8, BMW 7 Series, etc.",
       "people":4,
       "bags":3,
-      "price":"$209"
+      "price":"$209",
+      "amount":209
     },
     {
       "id":8,
@@ -344,7 +351,8 @@
       "carDescription":"Mercedes Sprinter, Toyota Coaster, Ford Transit, etc.",
       "people":10,
       "bags":10,
-      "price":"$293"
+      "price":"$293",
+      "amount":293
     },
     {
       "id":9,
@@ -353,7 +361,8 @@
       "carDescription":"Skoda Octavia, Toyota Corolla, Hyundai Elantra, Ford Focus, etc.",
       "people":4,
       "bags":3,
-      "price":"$49"
+      "price":"$49",
+      "amount":49
     },
     {
       "id":10,
@@ -362,7 +371,8 @@
       "carDescription":"Skoda Octavia, Toyota Corolla, Hyundai Elantra, Ford Focus, etc.",
       "people":4,
       "bags":3,
-      "price":"$49"
+      "price":"$57",
+      "amount":57
     }
   ]
   
