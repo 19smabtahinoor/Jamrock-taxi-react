@@ -1,5 +1,4 @@
 import React from 'react'
-import Styled from 'styled-components'
 import Fade from 'react-reveal/Fade'
 
 const EmailSubscribeMobile = () => {
