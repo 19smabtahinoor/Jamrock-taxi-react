@@ -6,14 +6,27 @@ import { FaShoppingBag } from "react-icons/fa"
 import { FaRegTimesCircle } from "react-icons/fa"
 import { FaRegClock } from "react-icons/fa"
 import { FaTv } from "react-icons/fa"
-import { NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom'
+import CarsCartMobile from './CarsCartMobile'
 
 const CarsCart = () => {
     const [carsData] = useState(allCarsInfo.allCars)
-    
+    const [changeCard,setChangeCard] = useState(false)
+
+    const changeHandler = () => {
+        if(window.innerWidth <= 870){
+            setChangeCard(true)
+        }else{
+            setChangeCard(false)
+        }
+    }
+    window.addEventListener('resize',changeHandler)
 
     return (
         <>
+            {!changeCard ? 
+            <>
+
                     <section className="py-12 bg-gray-50">
                         <div className="max-w-screen-lg px-4 mx-auto">
                             <div className="grid grid-cols-1">
@@ -21,13 +34,13 @@ const CarsCart = () => {
                                     carsData.map(({ id, image, people, bags, price, name }) => {
                                         return (
                                             <Fade left>
-                                                <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3 bg-white rounded-lg shadow-xl overflow-hidden mb-6">
+                                                <div className="grid grid-cols-3 bg-white rounded-lg shadow-xl overflow-hidden mb-6">
 
-                                                    <div className="col-span-1 p-3 box-border flex justify-center lg:flex-none xl:flex-none 2xl:flex-none px-3">
+                                                    <div className="col-span-1 p-3 box-border flex flex-none px-3">
                                                         <img className="object-contain" src={image} alt="car" />
                                                     </div>
 
-                                                    <div className="col-span-1 p-3 box-border  flex flex-col items-center lg:items-start xl:items-start 2xl:items-start">
+                                                    <div className="col-span-1 p-3 box-border  flex flex-col items-start">
                                                         <h1 className="text-2xl text-gray-700 font-semibold py-2">{name}</h1>
 
                                                         <div className="flex items-center space-x-3">
@@ -47,7 +60,7 @@ const CarsCart = () => {
                                                         <NavLink to={`/car-cart/${id}`}>
                                                             <button className="bg-green-600 text-white text-xl rounded shadow-xl px-9 py-2 w-64 hover:bg-green-700" >Select</button>
                                                         </NavLink>
-                                                        
+
                                                     </div>
                                                 </div>
                                             </Fade>
@@ -56,7 +69,10 @@ const CarsCart = () => {
                                 }
                             </div>
                         </div>
-                    </section>   
+                    </section>
+            </>
+            : <CarsCartMobile/>}
+               
 
         </>
     )
