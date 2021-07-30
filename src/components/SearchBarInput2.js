@@ -69,8 +69,7 @@ const SearchBarInput2 = ({ isScriptLoaded, isScriptLoadSucceed }) => {
 
 
 export default scriptLoader([
-    `https://maps.googleapis.com/maps/api/js?key=AIzaSyAhF_Ae2djxGKmoLzXo1_FaHg30LmPkhWg
-&libraries=places`
+    `https://maps.googleapis.com/maps/api/js?key=AIzaSyB2Wfv6IK4HBOlEG8fdFzEzaIBpT_QRLmI&libraries=places`
 ])(SearchBarInput2);
 
 
