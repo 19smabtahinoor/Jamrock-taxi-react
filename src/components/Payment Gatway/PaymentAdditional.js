@@ -21,7 +21,7 @@ const PaymentAdditional = () => {
     const [people, setPeople] = useState("");
     const [bags, setBags] = useState("");
     const [price, setPrice] = useState("");
-  
+
 
     const { id } = useParams()
     useEffect(() => {
@@ -135,9 +135,10 @@ const PaymentAdditional = () => {
                                     <div className="bg-white rounded-lg shadow-xl p-8 box-border my-4">
                                         <h4 className="text-gray-800 text-xl font-bold pb-3">Additional services and goods</h4>
 
-                                        <div className="grid grid-cols-1 border-b border-gray-300 py-3">
-                                            <div className="col-span-1">
-                                                <label htmlFor="inputDrinks" className="form-label"><span className="text-sm font-semibold text-gray-600">Choose your favourite one</span></label>
+                                        {/* Champagne  */}
+                                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 border-b border-gray-300 py-3">
+                                            <div className="col-span-1 flex flex-col flex-grow">
+                                                <label htmlFor="inputDrinks" className="form-label"><span className="text-sm font-semibold text-gray-600">Champagne</span></label>
                                                 <select id="inputDrinks" className="form-select">
                                                     <option value="Choose drinks..">Choose drinks...</option>
                                                     <option>750 ml bottle of champagne</option>
@@ -146,33 +147,201 @@ const PaymentAdditional = () => {
                                                     <option>Served on arrival or departure – your choice</option>
                                                 </select>
                                             </div>
-                                        </div>
 
-                                        {/* deparature and   arival          */}
-                                        
-                                        <div className="flex items-center py-4">
-                                            <span className="text-gray-600 text-base flex-grow">
-                                                Choose any option
-                                            </span>
-                                            <div className="flex items-center">
-                                                <div className="form-check">
-                                                    <input className="form-check-input" type="radio" name="radioselect" id="radioArival" />
-                                                    <label className="form-check-label text-gray-500" htmlFor="radioArival">
-                                                        On Arrival
-                                                    </label>
+                                            <div className="col-span-1 flex justify-end flex-row">
+                                                {/* deparature and   arival          */}
+
+                                                <div className="flex items-center pt-4">
+                                                    <div className="flex items-center">
+                                                        <div className="form-check">
+                                                            <input className="form-check-input" type="radio" name="radioselect" id="radioArival" />
+                                                            <label className="form-check-label text-gray-500" htmlFor="radioArival">
+                                                                On Arrival
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                    <div className="ml-2">
+                                                        <div className="form-check">
+                                                            <input className="form-check-input" type="radio" name="radioselect" id="radioDeparature" />
+                                                            <label className="form-check-label text-gray-500" htmlFor="radioDeparature">
+                                                                On Departure
+                                                            </label>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
-                                            <div className="ml-2">
-                                                <div className="form-check">
-                                                    <input className="form-check-input" type="radio" name="radioselect" id="radioDeparature" />
-                                                    <label className="form-check-label text-gray-500" htmlFor="radioDeparature">
-                                                        On Departure
-                                                    </label>
+                                        </div>
+
+                                        {/* Flower bouquet  */}
+                                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 border-b border-gray-300 py-3">
+                                            <div className="col-span-1 flex flex-col flex-grow">
+                                                <label htmlFor="inputDrinks" className="form-label"><span className="text-sm font-semibold text-gray-600">Flower Bouquet</span></label>
+                                                <select id="inputDrinks" className="form-select">
+                                                    <option value="Choose drinks..">Choose flower...</option>
+                                                    <option>Beautiful hand prepared flower bouquet</option>
+                                                    <option>Presented privately inside the vehicle</option>
+                                                    <option>Available in 3 sizes (Small, Medium & Large)</option>
+                                                    <option>Email us if you need to add a special note</option>
+                                                </select>
+                                            </div>
+
+                                            <div className="col-span-1 flex justify-end flex-row">
+                                                {/* size       */}
+
+                                                <div className="flex items-center pt-4">
+                                                    <div className="flex items-center">
+                                                        <div className="form-check">
+                                                            <input className="form-check-input" type="radio" name="flowerSize" id="flowerSmall" />
+                                                            <label className="form-check-label text-gray-500" htmlFor="flowerSmall">
+                                                                Small
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                    <div className="ml-2">
+                                                        <div className="form-check">
+                                                            <input className="form-check-input" type="radio" name="flowerSize" id="flowerMedium" />
+                                                            <label className="form-check-label text-gray-500" htmlFor="flowerMedium">
+                                                                Medium
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                    <div className="ml-2">
+                                                        <div className="form-check">
+                                                            <input className="form-check-input" type="radio" name="flowerSize" id="flowerLarge" />
+                                                            <label className="form-check-label text-gray-500" htmlFor="flowerLarge">
+                                                                Large
+                                                            </label>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
 
-                                   
+                                        {/* Red Stripe Beer */}
+                                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 border-b border-gray-300 py-3">
+                                            <div className="col-span-1 flex flex-col flex-grow">
+                                                <label htmlFor="inputDrinks" className="form-label"><span className="text-sm font-semibold text-gray-600">Red Stripe Beer</span></label>
+                                                <select id="inputDrinks" className="form-select">
+                                                    <option value="Choose drinks..">Choose Beer...</option>
+                                                    <option>Ice cold Red Stripe beers (4pk)</option>
+                                                    <option>Glass bottled original Jamaican Red Stripe</option>
+                                                    <option>Presented privately inside the vehicle</option>
+                                                    <option>Served on arrival or departure (your choice)</option>
+                                                </select>
+                                            </div>
+
+                                            <div className="col-span-1 flex justify-end flex-row">
+                                                {/* Arrival and Departure       */}
+
+                                                <div className="flex items-center pt-4">
+                                                    <div className="flex items-center">
+                                                        <div className="form-check">
+                                                            <input className="form-check-input" type="radio" name="radioselectBeer" id="radioArivalBeer" />
+                                                            <label className="form-check-label text-gray-500" htmlFor="radioArivalBeer">
+                                                                On Arrival
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                    <div className="ml-2">
+                                                        <div className="form-check">
+                                                            <input className="form-check-input" type="radio" name="radioselectBeer" id="radioDeparatureBeer" />
+                                                            <label className="form-check-label text-gray-500" htmlFor="radioDeparatureBeer">
+                                                                On Departure
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        {/* VIP Pass – Club & Airport */}
+                                        <div className="grid grid-cols-1 border-b border-gray-300 py-3">
+                                            <div className="flex flex-col flex-grow">
+                                                <label htmlFor="inputDrinks" className="form-label"><span className="text-sm font-semibold text-gray-600">VIP Pass – Club & Airport</span></label>
+                                                <select id="inputDrinks" className="form-select">
+                                                    <option value="Choose drinks..">Choose VIP offers...</option>
+                                                    <option>You are greet in the VIP area by airport staff</option>
+                                                    <option>Assistance with retrieving your luggage</option>
+                                                    <option>Assistance with your airport transfer</option>
+                                                    <option>Access to VIP lounge</option>
+                                                    <option>Complimentary snacks and beverages</option>
+                                                    <option>Complimentary WiFi in lounge</option>
+                                                    <option>Children under 2 years old goes free</option>
+                                                    <option>72hr notice required to secure VIP Pass</option>
+                                                </select>
+                                            </div>
+
+
+                                            {/* Airport      */}
+
+                                            <div className="flex items-center pt-4">
+                                                <span className="flex flex-grow">Airport</span>
+                                                <div className="form-check">
+                                                    <input className="form-check-input" type="radio" name="radioselectAirport" id="radioAirport" />
+                                                    <label className="form-check-label text-gray-500" htmlFor="radioAirport">
+                                                        Montego Bay Airport
+                                                    </label>
+                                                </div>
+
+                                                <div className="ml-2">
+                                                    <div className="form-check">
+                                                        <input className="form-check-input" type="radio" name="radioselectAirport" id="radioAirport2" />
+                                                        <label className="form-check-label text-gray-500" htmlFor="radioAirport2">
+                                                            Kingston Airport
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            {/* Person  */}
+                                            <div className="flex items-center pt-4">
+                                                <span className="flex flex-grow">Person</span>
+                                                <div className="form-check">
+                                                    <input className="form-check-input" type="radio" name="radioselectPerson" id="radioAdult" />
+                                                    <label className="form-check-label text-gray-500" htmlFor="radioAdult">
+                                                        Adult
+                                                    </label>
+                                                </div>
+
+                                                <div className="ml-2">
+                                                    <div className="form-check">
+                                                        <input className="form-check-input" type="radio" name="radioselectPerson" id="radioChild" />
+                                                        <label className="form-check-label text-gray-500" htmlFor="radioChild">
+                                                            Child
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            {/* Ticket  */}
+                                            <div className="flex items-center pt-4">
+                                                <span className="flex flex-grow">Ticket</span>
+                                                <div className="form-check">
+                                                    <input className="form-check-input" type="radio" name="radioselectTicket" id="radioArrivalDeprature" />
+                                                    <label className="form-check-label text-gray-500" htmlFor="radioArrivalDeprature">
+                                                        Arrival & Departure
+                                                    </label>
+                                                </div>
+
+                                                <div className="ml-2">
+                                                    <div className="form-check">
+                                                        <input className="form-check-input" type="radio" name="radioselectTicket" id="radioArrivalOnly" />
+                                                        <label className="form-check-label text-gray-500" htmlFor="radioArrivalOnly">
+                                                            Arrival Only
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                <div className="ml-2">
+                                                    <div className="form-check">
+                                                        <input className="form-check-input" type="radio" name="radioselectTicket" id="radioDepartureOnly" />
+                                                        <label className="form-check-label text-gray-500" htmlFor="radioDepartureOnly">
+                                                            Departure Only
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
 
 
                                         <button className="flex justify-center w-full text-white mt-3 bg-green-600  hover:bg-green-700 border-0 py-2 px-6 focus:outline-none  rounded" onClick={() => setShowItem(true)}>Continue</button>
@@ -204,7 +373,7 @@ const PaymentAdditional = () => {
                                             <div className="flex h-12 pt-3 items-center bg-green-100 rounded-lg px-4">
                                                 <p className="text-gray-700 font-semibold flex-grow">Additional services </p>
                                                 <p className="text-gray-700 font-semibold">0 USD</p>
-                                               
+
                                             </div>
                                             <div className="flex h-12 pt-3 items-center bg-yellow-100 rounded-lg px-4">
                                                 <p className="text-gray-700 font-semibold flex-grow">Cancellation service</p>
@@ -220,7 +389,7 @@ const PaymentAdditional = () => {
                                             <h2 className="text-green-600 font-bold text-2xl">
                                                 {price} USD
                                             </h2>
-                                       
+
                                         </div>
 
                                         <div className="flex items-center">
@@ -228,7 +397,7 @@ const PaymentAdditional = () => {
                                             <span className="text-gray-600 font-semibold">
                                                 {price} USD
                                             </span>
-                                         
+
                                         </div>
                                     </div>
                                 </div>
