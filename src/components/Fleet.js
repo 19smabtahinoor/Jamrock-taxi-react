@@ -40,9 +40,10 @@ const Fleet = () => {
                         </Fade>
                         <Fade left>
                             <div className="flex flex-row items-center lg:items-end xl:items-end pb-9 space-x-4">
-                                <span className="text-green-600 bg-green-100 px-3 py-2 rounded-lg">Drinking Water</span>
-                                <span className="text-green-600 bg-green-100 px-3 py-2 rounded-lg">Child Seats</span>
-                                <span className="text-green-600 bg-green-100 px-3 py-2 rounded-lg">English-Speaking</span>
+                                <span className="text-green-600 bg-green-100 px-3 py-2 rounded-lg text-sm">Red Stripe Beer</span>
+                                <span className="text-green-600 bg-green-100 px-3 py-2 rounded-lg text-sm">Champagne</span>
+                                <span className="text-green-600 bg-green-100 px-3 py-2 rounded-lg text-sm">VIP Pass</span>
+                                <span className="text-green-600 bg-green-100 px-3 py-2 rounded-lg text-sm">Flowers</span>
                             </div>
                         </Fade>
                     </div>
