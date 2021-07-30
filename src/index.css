@@ -14,3 +14,14 @@ body::-webkit-scrollbar-thumb{
   -ms-border-radius:50px;
   -o-border-radius:50px;
 }
+.transfer_details_wrapper::-webkit-scrollbar{
+  width: 5px;
+}
+.transfer_details_wrapper::-webkit-scrollbar-thumb{
+  background:#ddd;
+  border-radius:50px;
+  -webkit-border-radius:50px;
+  -moz-border-radius:50px;
+  -ms-border-radius:50px;
+  -o-border-radius:50px;
+}
