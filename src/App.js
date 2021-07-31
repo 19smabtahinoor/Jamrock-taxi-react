@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
-import { Hompage, Navbar, SearchPage, PaymentAdditional} from './components/index'
+import { Hompage, Navbar, Contact, SearchPage, PaymentAdditional} from './components/index'
 
 
 const App = () => {
@@ -9,6 +9,7 @@ const App = () => {
       <Navbar />
       <Switch>
         <Route exact path="/" component={Hompage} />
+        <Route exact path="/contact" component={Contact} />
         <Route exact path="/car-cart" component={SearchPage} />
         <Route exact path="/car-cart/:id" children={<PaymentAdditional/>}></Route>
       </Switch>
