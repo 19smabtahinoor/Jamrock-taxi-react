@@ -41,7 +41,7 @@ const Contact = () => {
                                         <li className="hover:text-yellow-500 cursor-pointer">JA: +1 (876) 438-5432</li>
                                     </ul>
                                 </div>
-                                <a href="https://web.whatsapp.com/" target="_blank" rel="noreferrer" className="text-decoration-none text-blue-600 text-xl hover:text-yellow-500 block text-center font-semibold">Chat On WhatsApp? Click Me</a>
+                                <a href="https://api.whatsapp.com/send/?phone=447985190947&text&app_absent=0" target="_blank" rel="noreferrer" className="text-decoration-none text-blue-600 text-xl hover:text-yellow-500 block text-center font-semibold">Chat On WhatsApp? Click Me</a>
                             </div>
                         </div>
 
