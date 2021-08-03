@@ -125,7 +125,7 @@ const Footer = () => {
                     <div className="flex flex-col justify-center items-center py-12 space-y-3">
                         <img src="../../assets/logo.jpg" alt="logo" width="150px" height="100px" />
                         <p className="text-center text-white text-sm">
-                            © Jamrock taxi Terms and Conditions
+                            © Jamrock taxi Terms and Conditions. Made by ❤ S.M.Abtahi Noor
                         </p>
                     </div>
 
