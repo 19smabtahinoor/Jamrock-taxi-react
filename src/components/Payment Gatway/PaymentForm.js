@@ -1,8 +1,8 @@
-import React, { useState } from 'react'
 import { CardElement, useElements, useStripe } from '@stripe/react-stripe-js';
-import axios from "axios"
+import axios from "axios";
+import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import allCarsInfo from '../../data/jamrock.json'
+import allCarsInfo from '../../data/jamrock.json';
 
 const CARD_OPTIONS = {
     iconStyle: "solid",
@@ -42,13 +42,14 @@ const PaymentForm = () => {
         if (!error) {
             try {
                 const { id } = paymentMethod
-                const response = await axios.post("http://localhost:4000/payment", {
+                const response = await axios.post("https://jamrock-server.herokuapp.com/payment", {
                     amount: carsData[1].amount * 100,                           
                     id   
                 })
 
                 if (response.data.success) {
                     console.log("Successful Payment")
+                    alert('Payment Successful')
                     setSuccess(true)
                 }
             } catch (error) {
@@ -70,7 +71,7 @@ const PaymentForm = () => {
                                     <CardElement options={CARD_OPTIONS} />
                                 </div>
                             </fieldset>
-                            <button className="mt-8 text-white bg-green-600 text-white hover:bg-green-700 border-0 py-2 px-9 focus:outline-none rounded w-full">Pay</button>
+                            <button  className="mt-8 text-white bg-green-600 text-white hover:bg-green-700 border-0 py-2 px-9 focus:outline-none rounded w-full">Pay</button>
                         </form>
                     </div>
                 </section>
